@@ -49,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupSlider() {
         List<String> sliderImages = new ArrayList<>();
-        sliderImages.add("https://example.com/image1.jpg");
-        sliderImages.add("https://example.com/image2.jpg");
-        sliderImages.add("https://example.com/image3.jpg");
+        sliderImages.add("https://img.freepik.com/free-vector/cinema-realistic-poster-with-illuminated-bucket-popcorn-drink-3d-glasses-reel-tickets-blue-background-with-tapes-vector-illustration_1284-77070.jpg");
+        sliderImages.add("https://img.freepik.com/free-vector/cinema-realistic-poster-with-illuminated-bucket-popcorn-drink-3d-glasses-reel-tickets-blue-background-with-tapes-vector-illustration_1284-77070.jpg");
+        sliderImages.add("https://img.freepik.com/free-vector/cinema-realistic-poster-with-illuminated-bucket-popcorn-drink-3d-glasses-reel-tickets-blue-background-with-tapes-vector-illustration_1284-77070.jpg");
 
         SliderAdapter sliderAdapter = new SliderAdapter(sliderImages, this);
         viewPagerSlider.setAdapter(sliderAdapter);
